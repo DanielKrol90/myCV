@@ -19,8 +19,14 @@ body {
 
 p {
 	color: #333;
-	margin-left: 40px;
+	padding-right: 35px;
 }
+
+a {
+	color: #fff;
+	text-decoration: none;
+}
+
 h3 {
 	font-size: 20px;
 }
@@ -177,11 +183,12 @@ h4 {
 .container .right-side {
 	position: relative;
 	background: #fff;
-	padding: 30px;
+	padding: 20px;
+	margin-left: 30px;
 }
 
 .about {
-	margin: 40px 20px;
+	margin: 0;
 	padding: 20px 0;
 }
 
@@ -297,3 +304,12 @@ h4 {
 	list-style: none;
 }
 
+
+
+.btn {
+	background-color: rgb(242, 73, 73);
+	display: block;
+	margin: 30px auto 20px;
+	width: 150px;
+	box-shadow: 0px 1px 10px black;
+}
