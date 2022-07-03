@@ -22,8 +22,6 @@ p {
 	padding-right: 35px;
 }
 
-
-
 h3 {
 	font-size: 20px;
 }
@@ -113,6 +111,8 @@ h4 {
 .contact-info ul {
 	list-style: none;
 	position: relative;
+	padding: 0;
+	
 }
 
 .contact-info ul li {
@@ -126,13 +126,16 @@ h4 {
 	padding-top: 5px;
 	font-size: 16px;
 	font-weight: 600;
+	
 }
 
 .contact-info ul li .contact-icon i {
 	display: inline-block;
-	width: 30px;
+	width: 20px;
 	font-size: 18px;
 	color: #03a9f4;
+	margin-right: 10px;
+	
 }
 
 .contact-info ul li span {
@@ -140,18 +143,16 @@ h4 {
 	font-weight: 300;
 	display: block;
 	font-weight: 600;
-	
-}
-.contact-info .contact-icon2 {
-	color: #ffffff;
-	margin-left: 30px;
-	display: block;
-	padding-top: 5px;
-	font-weight: 600;
 }
 
-.contact-info .contact-icon2 i {
-	margin-right: 10px;
+.contact-info ul li span.contact-icon span.white {
+	display: block;
+	padding-left: 16px;
+}
+.contact-info ul li span.contact-icon span.white-2 {
+	color: white;
+	display: inline;
+	padding-left: 10px;
 }
 
 
@@ -160,6 +161,8 @@ h4 {
 }
 .contact-text a {
 	font-weight: 600;
+	color: #fff;
+	text-decoration: none;
 }
 
 
@@ -194,7 +197,7 @@ h4 {
 }
 
 .title2 {
-	color: #003147;
+	color: black;
 	text-transform: uppercase;
 	letter-spacing: 1px;
 	margin-bottom: 40px;
@@ -301,8 +304,6 @@ h4 {
 	list-style: none;
 }
 
-
-
 .btn {
 	background-color: rgb(242, 73, 73);
 	color: #FFF;
@@ -315,4 +316,23 @@ h4 {
 .btn:hover {
 	background-color: rgb(47, 134, 255);
 	color: white;
+}
+
+.footer {
+	margin-top: 20px;
+	border-radius: 10px;
+	padding: 10px;
+	margin-right: 25px;
+	font-size: 5px;
+}
+
+.footer p {
+	line-height: 1;
+	padding-bottom: 0;
+	margin-bottom: 0;
+	padding-right: 10px;
+}
+
+@media all and  (max-width: 993px) {
+
 }
