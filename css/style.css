@@ -144,6 +144,9 @@ h4 {
 	display: block;
 	font-weight: 600;
 }
+.contact-info ul li span a:hover {
+	color: #03a9f4;
+}
 
 .contact-info ul li span.contact-icon span.white {
 	display: block;
@@ -327,12 +330,8 @@ h4 {
 }
 
 .footer p {
-	line-height: 1;
+	line-height: 1.3;
 	padding-bottom: 0;
 	margin-bottom: 0;
 	padding-right: 10px;
-}
-
-@media all and  (max-width: 993px) {
-
 }
