@@ -53,6 +53,15 @@ h4 {
 	background: #003147;
 	padding: 40px;
 }
+.container .lang a {
+	text-decoration: none;
+}
+.container .lang i{
+	color: #03a9f4;
+	display: flex;
+	justify-content: flex-end;
+}
+
 
 .profile-text {
 	position: relative;
